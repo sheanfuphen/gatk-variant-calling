@@ -3,7 +3,7 @@ objective: variant calling with GATK
 
 This code was written to be run on the NYU HPC Greene Cluster. 
 
-Prerequisites:
+Prerequisite files (in addition to your sample fastqs):
 bwa index
 
 Prerequisite Modules:
