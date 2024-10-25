@@ -5,10 +5,6 @@
 #SBATCH --time=25:00:00
 #SBATCH --mem=64GB
 #SBATCH --job-name=trimmomatic
-#SBATCH --mail-type=END
-#SBATCH --mail-user=sp7512@nyu.edu
-#SBATCH --output=slurm
-%j.out
 
 #purge all modules, then load trimmomatic
 module purge
