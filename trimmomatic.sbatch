@@ -26,3 +26,5 @@ for file in ./*trimmed
 do
 mv $file ${file}.fastq
 done
+
+module purge
